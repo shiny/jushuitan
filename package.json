@@ -1,0 +1,17 @@
+{
+  "name": "jushuitan",
+  "version": "1.0.0",
+  "description": "聚水潭非官方SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js"
+  },
+  "author": "daijie<daijie@php.net>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "tape": "^4.9.2"
+  }
+}
