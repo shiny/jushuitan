@@ -67,4 +67,5 @@ config 配置项：
 
 ## ChangeLog
 
+v1.0.1 Add git repository
 v1.0.0 初始化版本
