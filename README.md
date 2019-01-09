@@ -62,10 +62,21 @@ config 配置项：
 - method string 聚水潭接口名称
 - form 业务参数
 
+## 验证签名 Jushuitan.prototype.verify(url | qs)
+用于同步推送接口，可以传入字符串的 url 地址，或已经解析完的 queryString。sign 正确就返回 `true`, 不正确就返回 `false`
+- url string 收到请求的接口地址
+- qs Object 收到请求的 QueryString
+
+> 然而由于 partnerid 和 partnerkey 都是固定值 erp，所以此安全隐患导致无法验证请求发起者确是聚水潭官方。 http://open.jushuitan.com/document/1017.html
+
 ## Todo 
 暂不支持奇门接口
 
 ## ChangeLog
+
+v1.0.2 
+- 修复 typo partnerkey
+- 增加 verify 验证 sign 方法
 
 v1.0.1 Add git repository
 v1.0.0 初始化版本
