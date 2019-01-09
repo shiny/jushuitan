@@ -13,7 +13,7 @@ const jushuitan = new Jushuitan({
     // 合作方编号
     partnerid: 'ywv5jGT8ge6Pvlq3FZSPol345asd',
     // 接入密钥
-    patrnerkey: 'ywv5jGT8ge6Pvlq3FZSPol2323',
+    partnerkey: 'ywv5jGT8ge6Pvlq3FZSPol2323',
     // 授权码
     token: '181ee8952a88f5a57db52587472c3798',
 });
@@ -54,7 +54,7 @@ config 配置项：
 
 - url string 接口地址
 - partnerid string 合作方编号
-- patrnerkey string 接入密钥
+- partnerkey string 接入密钥
 - token string 授权码
 
 ## 查询 Jushuitan.prototype.query(method, form)
