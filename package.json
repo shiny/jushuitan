@@ -9,7 +9,7 @@
   "author": "daijie<daijie@php.net>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.21.1"
   },
   "repository": { 
     "type" : "git",
